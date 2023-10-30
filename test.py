@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
  
-# Указываем путь к драйверу Chrome
+# Указываем путь к драйверу Chrome 114.0.5735.90
 service = Service(executable_path='./chromedriver.exe')
 options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(service=service, options=options)
